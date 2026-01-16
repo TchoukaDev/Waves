@@ -2,11 +2,12 @@
 
 > Un prototype de réseau social moderne inspiré de X, permettant de partager des publications, suivre d'autres utilisateurs et communiquer en temps réel.
 
-Il s'agit de mon premier projet d'apprentissage de React
+Il s'agit de mon premier projet d'apprentissage de React.
 
 ## Table des matières
 
 - [Caractéristiques](#caractéristiques)
+
 - [Stack technologique](#stack-technologique)
 - [Installation](#installation)
 - [Usage](#usage)
