@@ -1,7 +1,7 @@
 import { useContext, useEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router";
 import { toast } from "react-toastify";
-import { AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { UserContext } from "../contexts/userContext";
 import { useSearchUser } from "../hooks/users/useSearchUser";
 import { useDebounce } from "../hooks/utilities/useDebounce";
@@ -11,6 +11,7 @@ import SearchBar from "./SearchBar";
 import ToggleTheme from "./toggleTheme";
 import useConversationsByUser from "../hooks/messages/useConversationsByUser";
 import { useClickOutside } from "../hooks/utilities/useClickOutside";
+
 
 export default function Header() {
   // Valeur du champ de la barre de recherche
