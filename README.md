@@ -2,7 +2,10 @@
 
 > Un prototype de réseau social moderne inspiré de X, permettant de partager des publications, suivre d'autres utilisateurs et communiquer en temps réel.
 
-Il s'agit de mon premier projet d'apprentissage de React.
+## Introduction
+
+Il s'agit de mon premier projet React. Il m'a permis d'expérimenter et d'apprendre le routing, les bases de l'auth (Firebase + Google OAuth), la gestion des données et du cache et  l'utilisation des snapshots de Firebase pour de l'écoute en temps réel. La principale difficulté rencontrée a été la gestion et la synchronisation des notifications liées à la messagerie instantanée. 
+Améliorations à prévoir: Migration en Typescript et meilleure architecture du projet. 
 
 ## Table des matières
 
